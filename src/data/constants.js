@@ -13,7 +13,7 @@ export const Bio = {
     "I have 5 years of experience in Software development  from requirement gathering to delivery. My passion is to write clean and readable code that is also easy to test and maintain. I always try to improve my selection of workflow and technology stack to push a little bit further in terms of productivity and reliability.",
   github: "https://github.com/imHeeshan",
   resume:
-    "https://drive.google.com/file/d/18kxGhU46g_vUqccTm3dFfdksd9OvSDlV/view?usp=sharing",
+    "https://drive.google.com/file/d/13rIXWGz8NHl5LXq5Zn5uofFbyD9ZHpxP/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mohamedheeshan/",
   insta: "https://instagram.com/imheeshan",
   facebook: "https://www.facebook.com/rishav.chanda.165/",
