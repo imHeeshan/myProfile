@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import I from "../../images/aynlo.jpg";
+import logo from '../../images/logo.png'
 
 const Document = styled.img`
   display: none;
@@ -157,10 +158,11 @@ const Skill = styled.div`
 `;
 
 const ExperienceCard = ({ project }) => {
+  console.log(project.img);
   return (
     <Card>
       <Top>
-        <Image src={project.img} />
+        <Image src={project.img.length>0?project.img:logo} />
         <Body>
           <Role>{project.name}</Role>
           <Company>{project.short_desc}</Company>
@@ -178,9 +180,9 @@ const ExperienceCard = ({ project }) => {
         <>
           <br />
           <Projects>
-            <b>Available:</b>
+            {project.link&&<b>Available:</b>}
             <>
-              {project.link.map((store) => {
+              {project.link?.map((store) => {
                 return (
                   <>
                     <a href={`${store.store}`} target="blank">

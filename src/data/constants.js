@@ -1,3 +1,4 @@
+
 export const Bio = {
   name: "Mohammadu Heeshan",
   roles: [
@@ -53,15 +54,15 @@ export const skills = [
         image:
           "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
       },
-
       {
         name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
+     
       {
         name: "CSS3",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
       },
       {
         name: "Bootstrap",
@@ -133,6 +134,11 @@ export const skills = [
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
+      {
+        name: " Agora.io SDK",
+        image:
+          "https://logowik.com/content/uploads/images/3699-agora.webp",
+      },
     ],
   },
 
@@ -140,15 +146,25 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "Git",
-        image:
-          "https://assets.stickpng.com/images/62a6360f03a870b920cbfd41.png",
-      },
-      {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
+      {
+        name: "Git",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABJlBMVEX////hQyj8aw7/nhv//v/33NbhLQD8axH8///hQyb+//39//3hQyr//f/+//zgQyj8ZgD9nxnhQi39WQD9lQD8ahL/aBDhIwDkQSv+bgr6bQv5YAD/nR3fGwDjQiXeRSbgOBbxvbPgNRD86+j0YBjvWhz9so/45N75zsj+9PDoemrwoZ3zs67gNQDnZlHja1nrjH7tqKHmaVX21c7lVDjqgXXdQBvlUkDslYrjUDXoW0rnhnP0xb/ujYTyt6voY0fyu7runIzqUiL81cH5lW3+vqH7qIP5kmD8diT8yLD+s5z7nn77gT35n3T8h0j80L7759r6ilX+wqH6fkP7rIT9jhj8fRH5iFH9gxT8t2f9rEv/1Kn9yJD95dH9qDn8wID82bT9oysNNaPbAAANOUlEQVR4nO2d+3vaNhfHZdfBkm1sYzBgk9iEJE1oSy/LW7Z17S50WdZua7PtTdd1zbvt//8n3iNDwsVXgewkffTZT3ue9Fhf6ehcJAMICQQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAm5oSNHLsq0gxSzLNgNaXSvLtGmWN3sM6Lg0hbgsw2wox4el2T48GpZmuxgKGt7bGXRq9xH3ddQV9GDUGe083ONtmY3hqB8GljF6VILtx7WuZIXGzlYJtovzLAgNw7DI6Gvupo86XcuSpJD0uZsuDt6qWZJhEIkEAXfbjwKJSCDRGDznbZuBLwIiTakdIn6BHSsKqnesgBomRvAITCvcjLNRI9ZMYf8JR7MgED0fTG0bjtHZu7a8sTsIZwKlIORoly7YIwhgkULYiDxnj43PAmJcSuwcIp4VFq5FcUaSnDAIA4SvoXqDemqvI82Bia5zM47x7mDBdu2Y4yYvjKah+/2FUQT/4WcbvPTeeME2ecrPdnE0BQ+ItDjR/IoPKJBq0pLt62kxjpZGYXGMByZE0kXb4YB/QZGPjp4uOpIUcHRTjJ4Gi7a7wefcbDOMog5l4+JeoWmLE8qKkxpdfrYZeDAwloZh9R/wMo2f15ZsG9L4C162GfgyWBZIgmfcbH8VLCmE+rRTbVVjQjg/7ISWtExtiHQ+feLICFZsQ/mN+eXbXOrwsBfj7qrC/gPMJ+sfzevdq0D2GcIVZn0TiqiaRbqro3iINC6J6/HYMlZsWzuVnmdA7f98EFir8yx1hlycFNdIzEtpVVjaiVfCEBQouleHQEfBITFDNXg0SrBtjatsoUw03EkYhBR8w8X4436ScSi/q0NBTxIHYezUN55n6FlqSbat/lc8hl50FGic5KQS6e9ubBuv1LtXs0c6HEZemONaLMpMR/HZ5muIXyTPnjHYxbpW1XnNV+PVaD4bxc7GI8DJTipZgfUMomlF8dSskcRREGuwuZse1xJnLzSCzmFl0fTrgZPoSZY03vzw+4tE05LkGP37lRwqKho96Y7VM5d0NG1DRxqQZAcBBrBL+ajI4bDWNRI9iQ5id8OtslWTEqNYZLyS02/FRPf7hIQpgwju0VujDfhuTNJmLzLOS0c64CajrhGkjqKGNtssQVdK9VIofHnJyACj50ll46InrT3PSuSk6fA87coaxaOUYHflSeuzcgYbo/slNx3p4GHWLEvUTddew7qOwnQXBYGkVsV1aXLRPWdwtEFEP8ycvlAKSi6/6b0eyogyEf3HGzwhb/qkTpSQS4MKhKIqNV9RSHe0tn0NfZnlpJTBtxwvgOLQNPC0HztjW6JrjI7WfsBeck26ADTZerl1De6QjHxF15D0X6xt/Uk/c/Yonb0y+wvo4L8d5A1BCkewYdc7c/s8z0lhm98v001h2J9nJkPAstY/UdnrZO9xSjAos3Kr46Vr30S6UHm8WLNwe9CPnZPGqW2SjfL5Li+aR4s4WPPg71mQ76VkvEnRlE8tradYYvT1FjvHWymnPysTGO7UlfJy4vP8OEMJB6MaK6PRqJBxyxg8wPXSmv17+dGc0rW6DmGka6V3vosYEjGQWdY7rckn3UnzXGiwK/8odpeVjCNB+a2VEG0UcI0n/YKjKBeofMt5N0ND3cDID3blQ0+/S/BSTUH0XctCsbRsBrtlLKKmoRdjKX5neB2MH5YRS+l7SuQGKCTEMkhJL5/sDgzj+vchHQA9/eYPRg8hzqSfZVYFOBFx+L90TRWeNfcnknPtEsGPnMl+82UJEl/bsuy5BxPDkQhsR2iEK/VYYlAPMqTJget5sv09Nrlnfd9TZVWVPflg4kDVQgyn2uUk9FMBIM+VKb3ofQmunDVlWQXTKsyge0Asp9ollMB1QJ4sU4Ew1b2XvAWiE7sdKYzw5H3w1iolGuEBTO0UECjbP3Cta3T479SWl/D2QyiwK8gesB8kJ9j3lh9v/xi9XccLMIVnDrKkcWzE3j/jDiGOQ/a9FYGy3FQ2u8VbUWiiYVP2lx+hUo2WU7ZCyA6wfp66qrC3xXUjmuiip65KjEQelCzRIJPpg2IKX3HUh+oaetWLPyRyVTd0YDtmnxKvA4H9Bx5KN2CCPtiIrzmnwxM76TGRxgP6ATP+CqlIhwZQN/Gx9k88FSoafp2qUPXcgPDfj5CMnNCl+y8WZKYKTzknxJ9SFVImDv+YSpxJFL7VFC/9mXOP+EumQm/f4FmTE2gCLfDQrEfKXBXqeWsoq27OvSkbBiQJN8U9L/mRq0IlWyF1JG+S+hYROxZ4qBfPgYt4b7h6qY7uZipUacA5CLlJNA5ojs9UaH/PUR+93T5JyYeLs+oShx6ikI3iKvSdTrifvX6Rwh84R5q3eQrpOkJMhaZxs7YK5miSnAFXFJ5wVniWp9CbFapE2qy+cYycGHqp8C1XfaaiNHOeGCVnyP60Fd9AoBHSPknNdVK5x/1A8Uc7/6kUGlNhLzJXAPTcB0rRIDu+LChEvM+9f7LVdiGFUKcaxS7KlnFg9Z1JfoiZYv/BVx6KQk2hh6s0plrsngp1jBOudvLp9E4Q73cylPx0caWxPWE/wyGSM4G9XHAJ5eYZ5u2l+E2sAU4Hsr/DsBWJQY98isXQ6SR6Pl91Ea96hSWCp+4TplMqKESLeyg8wH7NX6BWL+ymU4LiPaNDSOCm9PLJNM/4K0Q4u4GK4RU/woFWkEmfb/9Rwj0+pqfeCadRaagqeKqR3zRa9Ms9CtShS5RyMWPGD4XzNELayM8aMAuBy7KAgPdzKff49OrC94sUxZcKIeAc5Co0jAkNMUwSYQlLeHuPnuz/YhcXGLV34Kl5JzgQQxlmLcL+FeklfRWI1mNZwxljJ7FOdeh9MnHAQxn3oOw3h8qmH65K5WWTIe3P8CaWlHC/QWgTQo/TGD1UVnuvMc8riyUU9D1jUpQjT5USsj/tI61plmdI9fSvf0d63SxpDTUdmqg1JLZJvO+nrutOD2PY1rBn0g9FlPWesI6HPb9QE7WsUT6gNxtXKi3Yg9bUQxnxaTVT4lvQiqLhrabP5lURNPsv9Bs0zTMU2le0vebbUj8KrJl1HR/nnWfEoSc4bTJ/JdOCVXQZIyjF93q/IYX7Bf4Cuka7zjUkTrP/VZ1K1vJQoPkbhlku+fPcelSgFq9Pr3Cjyw1axzG1gpfAA11w0So+BwzVxNAreCy1gAcSaZ0KdajEXjYAbbl5yP30KRGsmFj/lTkvqrPLDcmidSj7JlTt34e47M88zTB1RUMna2xGqM+gTj2IqjRmic3/YvolnxV+R82ZG+V+ppHSd47OfbY9TJdede3eRTUeuoh2CsmfbSn8tr/daLxryz6DyLavyuChUYdaKfC4k6bHMlRYj3eNBkg8t9sMXZiv2r0fEDZLzYNJKApGhx5Dwwircd64A2w3tmExi0u05WPoB/E1fT/7KU2NRUbbjjz0zhTw1Okrhnn49C3EN9f5reUY/dYsNFLfbYOH3rlUuN04L1S/g+Xm3cojzIrEM69APwUrdt6YK9yOPFXNLWxcz+8dVx5hlgVqGsanualx6qGN7as1BLGNO+9yl9HvQQw1q44wq2gIv2pmF3Guu+Chd+Yy32eFKdiBHnjoTQBmeM9P91Sq/Zwu2Srb4KlZV5KeDFm+rNMKFsy6CZHgNLVO9V3qodsxgZHmRoan9t7UrzfGXII1TL8P8lXaZpzG0CQvhTW8kx5TqYfi6iu1DM5UO/aOD/yve54gblHneXTu4y/8G2rEtq/3Nx+SOY2dF0cxdHs7wUUXnfWd6y4XDarc+11DnL4plB8K9dSVF87BQ2cbLkti43277fpzeb5Ns7xWr/I7Z4sAEQfvLdep0zo0ewnpBFBPnSuEOvQCumy9vDPRjTjtubSYjPTN69BctqOYSm8nffl669AcIKxOYyrUoYlZPn0Z37ejIOO3m3fxDfkRpCTqSMfQ+/uy27ZzYuiyQsj+5/40hp7hKr9NlxVTUxCtU2d1aGGF8KcQc6Gj6v2h3JjfsUpF0fCr3rvi4uYqG++bJzcpw6cCMf6s0WJYwLnGM3Qz4+cyZuRkf7aY5bU+KKi8u12emBibOv6LVWLrI5S4pnnDsnwWZ9tRuZ3rrbM/al3c+AgTQ/vQguHnFDSzKWj9b4hRZd+CzAkYLnhqsbKm9RHflF9zZEBHCi4YU1sXsAMVTj8cUS0YYiqk8lSVkRO3PtzgOjQXhXpq+jLSaq319+0LMXN0+vHajPINVhc89CacNm0CNj+kpsYGxNComL3l4I+thLxIl7b19y120CvoEl0krCKNMS9xWe8YVkmdHihpcU9tNP4d3qzTwrXR6lTFx1WJrT+hl9eVW78H54CnNq7aYtiC/3wKW3CZ4YepxmkipJ8muOVZYhVoqv5uzc5uwENhA5qf2CoqSMcXLbobW61/EOzN+q3odllR/vrz3w9/fQrxM4Vp5PzEnHMJnd4YV/ZrONeBrmhYu52NoEAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAkER/g8AMyiajM/MKwAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "Zoho Sprints",
+        image:
+          "https://www.zohowebstatic.com/sites/zweb/images/ogimage/sprints-logo.png",
+      },
+      {
+        name: "Figma",
+        image: "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png",
+      },
+      
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
@@ -179,14 +195,38 @@ export const skills = [
     ],
   },
 ];
-
 export const experiences = [
   {
     id: 0,
     img: "",
+    role: "Mobile Application Developer",
+    company: "Recode exhibitions & Conferences LLC, UAE",
+    date: "Oct 2023 - Present",
+    responsible: [
+      "Spearheaded the development of the 'Pulr' mobile application from scratch using React Native",
+      "Established the development environment and crafted reusable components to ensure efficiency and scalability.",
+      "Managed the development workflow for the Pulr project efficiently using Zoho Sprint, facilitating sprint planning, task assignment, and progress tracking.",
+      "Conducted thorough testing and debugging of API integrations in the Pulr app to ensure data accuracy, security, and compliance with specifications.",
+      "Established the development environment and crafted reusable components to ensure efficiency and scalability.",
+      "Actively engaged in team discussions, providing valuable insights and assistance to team members.",
+    ],
+    skills: [
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "Firebase",
+      "Node",
+      "Agora.io",
+      "Figma",
+      "Stripe"
+    ],
+  },
+  {
+    id: 0,
+    img: "",
     role: "Software Engineer",
-    company: "Gravity Soft Net Computer Trading LLC",
-    date: "Feb 2023 - Present",
+    company: "Gravity Soft Net Computer Trading LLC, UAE",
+    date: "Feb 2023 - Sep 2023",
     responsible: [
       "Developing high-quality mobile applications using React Native framework for iOS and Android platforms.",
       "Debugging and fixing software defects and performance issues, and ensuring application stability and performance.",
@@ -204,7 +244,7 @@ export const experiences = [
       "Firebase",
       "Node",
       "MongoDB",
-      "Express.js",
+      "Express.js","Stripe","Figma"
     ],
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
@@ -212,7 +252,7 @@ export const experiences = [
     id: 0,
     img: "",
     role: "Software Engineer",
-    company: "adsfly.lk",
+    company: "adsfly.lk, Sri Lanka",
     date: "Feb 2019 -Oct 2022",
     responsible: [
       "Developing some products including a retail point of sale and E-Commerce using React Native and React Js for mobile and web applications.",
@@ -239,7 +279,7 @@ export const experiences = [
     id: 0,
     img: "",
     role: "Software Developer",
-    company: "SILVERAYS.TECH",
+    company: "SILVERAYS.TECH, Sri Lanka",
     date: "Feb 2018 - Jan 2019",
     responsible: [
       "Developing water supply billing system using Vue Is.",
@@ -253,7 +293,7 @@ export const experiences = [
     id: 0,
     img: "",
     role: "Associate Software Engineer",
-    company: "Omega Construction Co. (PVT) LTD",
+    company: "Omega Construction Co. (PVT) LTD, Sri Lanka",
     date: "Jan 2017 - Jan 2019",
     responsible: [
       "Developing & testing systems for accounting process using React.",
@@ -289,6 +329,14 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    img: "",
+    name: "Pulr ",
+    short_desc :"E Commerce And Social Media App",
+    desc: "we've created an app that combines the best of ecommerce and social media, offering users a smooth navigation, engaging interactions, and fast-loading content. Whether you're browsing products, connecting with friends, or sharing your latest finds, our app built with React Native ensures a cutting-edge experience for every user.",
+   
+  },
+  {
+    id: 0,
     img: "https://play-lh.googleusercontent.com/TH0FrTB3PjqVQhOHpOMHedZqQI5V25_OrJVzYh7wXXijxmQMeKyQ74BxRLAKFikyqJ8",
     name: "Ayn AllYouNeed ",
     short_desc :"E Commerce App",
@@ -312,7 +360,7 @@ export const projects = [
     img: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/e5/39/56e5398b-6795-373a-23c9-d6186f5c5350/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
     name: "Gravity RP MIS ",
     short_desc :"MIS Report App",
-    desc: "It gives a view of the day-to-day activities of your business",
+    desc: "Your app offers a comprehensive daily snapshot of business operations, encompassing sales, marketing, finance, and human resources. Users can track sales performance, manage marketing campaigns, monitor financial transactions, and oversee employee schedules all within one platform. Additionally, administrative tasks such as appointment scheduling and document management are seamlessly integrated. With insights into strategic planning and quality control measures, your app empowers businesses to make informed decisions and optimize their day-to-day activities for success.",
     link: [
       {
         title: "App Store",
