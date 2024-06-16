@@ -336,7 +336,7 @@ export const projects = [
   },
   {
     id: 0,
-    img: "https://play-lh.googleusercontent.com/TH0FrTB3PjqVQhOHpOMHedZqQI5V25_OrJVzYh7wXXijxmQMeKyQ74BxRLAKFikyqJ8",
+    img: "https://play-lh.googleusercontent.com/TH0FrTB3PjqVQhOHpOMHedZqQI5V25_OrJVzYh7wXXijxmQMeKyQ74BxRLAKFikyqJ8=w240-h480-rwx",
     name: "Ayn AllYouNeed ",
     short_desc :"E Commerce App",
     desc: "AYN app meticulously crafted using React Native. This innovative framework has enabled us to deliver a cross-platform application, ensuring a consistent and intuitive shopping experience for users on both iOS and Android devices.",
@@ -379,8 +379,15 @@ export const projects = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-gkd57GdKHXMULgJkBndQgwKFvzp1RIBnw&s",
     name: "Fazaa Stores",
     short_desc :"E comemrce Web Application",
-    desc: "Fazaa Stores is a cutting-edge eCommerce platform built using React and Redux, designed to offer users an immersive online shopping experience. It caters to both customers seeking a diverse range of products and merchants looking for a powerful platform to showcase and sell their goods.",
-    
+    desc: "Fazaa Stores offers a seamless platform for customers and merchants. Customers can easily sign up, browse products, view detailed information and reviews, add items to their cart, and complete purchases securely. They can track orders, manage their profile, addresses, and wishlist, with support via live chat and the help center. Merchants benefit from robust tools for inventory management, order handling, and sales analytics. Marketing features like discounts, email campaigns, and promotions help boost sales. Secure transactions, and a user-friendly interface make Fazaa Stores ideal for online shopping.",
+    link: [
+      {
+        title: "Web site",
+        store: "https://fazaastores.com/",
+        img: "https://www.pngall.com/wp-content/uploads/4/World-Wide-Web-Transparent.png",
+      },
+     
+    ],
   },  {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFygM4_GYYhPpUbIC7vrt5isVxIWkG2HQtEQ&s",
