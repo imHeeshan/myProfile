@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import I from "../../images/aynlo.jpg";
 import logo from '../../images/logo.png'
 
 const Document = styled.img`
@@ -182,13 +181,13 @@ const ExperienceCard = ({ project }) => {
           <Projects>
             {project.link&&<b>Available:</b>}
             <>
-              {project.link?.map((store) => {
+              {project.link?.map((store,i) => {
                 return (
-                  <>
-                    <a href={`${store.store}`} target="blank">
+                
+                    <a href={`${store.store}`}  key={i} target="blank">
                       <Logo src={store.img} />
                     </a>
-                  </>
+  
                 );
               })}
             </>

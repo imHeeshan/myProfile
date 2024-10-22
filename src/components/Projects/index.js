@@ -87,7 +87,7 @@ const Projects = () => {
         <TimelineSection>
           <Timeline>
             {projects.map((project, index) => (
-              <TimelineItem>
+              <TimelineItem  key={index}>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <ProjectCard project={project} />
                 </TimelineContent>

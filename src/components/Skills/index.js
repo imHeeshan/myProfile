@@ -125,16 +125,16 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 5 years.
+        <Desc>Here are some of my skills on which I have been working on for the past 7 years.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, index) => (
+            <Skill key={index}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
+                {skill.skills.map((item,i) => (
+                  <SkillItem  key={i}>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}

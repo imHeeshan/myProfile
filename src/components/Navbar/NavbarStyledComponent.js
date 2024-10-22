@@ -85,14 +85,15 @@ export const GitHubButton = styled.a`
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12px;
   transition: all 0.6s ease-in-out;
     :hover {
       background: -webkit-linear-gradient(225deg, rgb(10 11 71) 0%, rgb(220 201 222) 100%);
       color: ${({ theme }) => theme.white};     
     }
     @media screen and (max-width: 768px) { 
-    font-size: 14px;
+      font-size: 14px;
+      background: -webkit-linear-gradient(225deg, rgb(10 11 71) 0%, rgb(220 201 222) 100%)!important;
     }
 `;
 
