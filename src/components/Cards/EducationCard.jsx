@@ -79,7 +79,8 @@ const Top = styled.div`
 
 const Image = styled.img`
     height: 50px;
-    background-color: #000;
+    width:100px;
+    background-color: #fff;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
@@ -143,10 +144,10 @@ const EducationCard = ({ education }) => {
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                <Span>Key Moddule : {education.desc}</Span>
             </Description>
+            <Grade><b>Grade: </b>{education.grade}</Grade>
         </Card>
     )
 }
