@@ -26,7 +26,7 @@ export const experiences = [
     company: "Recode exhibitions & Conferences LLC (UAE)",
     date: "Oct 2023 - Mar 2024",
     responsible: [
-      "Spearheaded the development of the 'Pulr' mobile application from scratch using React Native",
+      "Spearheaded the development of the 'Pulr' mobile application from scratch using React Native.",
       "Established the development environment and crafted reusable components to ensure efficiency and scalability.",
       "Managed the development workflow for the 'Pulr' project efficiently using Zoho Sprint, facilitating sprint planning, task assignment, and progress tracking.",
       "Conducted thorough testing and debugging of API integrations in the 'Pulr' app to ensure data accuracy, security, and compliance with specifications.",
@@ -50,12 +50,13 @@ export const experiences = [
     company: "Gravity Soft Net Computer Trading LLC (UAE)",
     date: "Feb 2023 - Sep 2023",
     responsible: [
-      "Developing high-quality mobile applications using React Native framework for iOS and Android platforms.",
-      "Debugging and fixing software defects and performance issues, and ensuring application stability and performance.",
-      "Keeping up-to-date with the latest mobile application development trends, frameworks, and libraries, and continuously improving technical skills.",
-      "Mentoring and providing guidance to junior developers, and assisting in their professional growth.",
-      "Documenting code changes, processes, and procedures to ensure maintainability and knowledge sharing within the team.",
-      "Successfully deployed mobile application to both Apple App Store and Google Play Store, ensuring adherence to platform-specific guidelines and standards.",
+      "Developed high-quality mobile applications using the React Native framework for IOS and Android platforms. Successfully deployed mobile applications to both the Apple App Store and Google Play Store.",
+      "Created responsive and user - friendly web applications utilizing React.js for frontend development, ensuring a seamless user experience.Managed web hosting for applications using Netlify, ensuring efficient deployment and performance.",
+      "Proficient in full - stack development with a strong understanding of the MERN stack.",
+      "Implemented authentication and authorization mechanisms using technologies like JWT (JSON Web Tokens) to secure user data.",
+      "Employed state management with Redux to streamline data flow and enhance application performance.",
+      "Debugged and fixed software defects and performance issues, ensuring application stability and performance.",
+      "Documented code changes, processes, and procedures to ensure maintainability and knowledge sharing within the team.",
     ],
     skills: [
       "React Native",
@@ -68,7 +69,7 @@ export const experiences = [
       "MongoDB",
       "Express.js", "Stripe", "Figma"
     ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+
   },
   {
     id: 2,
@@ -77,12 +78,12 @@ export const experiences = [
     company: "adsfly.lk (Sri Lanka)",
     date: "Feb 2019 -Oct 2022",
     responsible: [
-      "Developing some products including a retail point of sale and E-Commerce using React Native and React Js for mobile and web applications.",
-      "Collaborating with QA team to identify and fix bugs, and conducting thorough testing to ensure application functionality and performance.",
-      "Involving in other projects developed by the company using Node Js, JavaScript and Typescript.",
-      "Developing and executing project plans. ",
-      "Troubleshooting and resolving technical issues in a timely manner, and providing technical support to resolve production issues.",
-      "Monitoring mobile App and web Application performance.",
+      "Developing some products including a retail point of sale and E-Commerce using React Native/ React.Js for mobile and web applications.",
+      "Collaborated closely with QA teams to ensure code quality, performing thorough testing and fixing bugs to enhance performance, functionality, and security.",
+      "Contributed to the backend of various applications using Node.js and TypeScript, implementing RESTful APIs.",
+      "Implemented secure authentication and user session management using JWT (JSON Web Tokens) and bcryptjs for password hashing, ensuring robust security for user data across applications.",
+      "Troubleshot and resolved technical issues in a timely manner, offering technical support to resolve production issues and minimize downtime.",
+      "Optimized backend performance by identifying and resolving bottlenecks in the Node.js codebase and improving database queries in MongoDB.",
     ],
     skills: [
       "React Native",
@@ -95,7 +96,7 @@ export const experiences = [
       "Express.js",
       "SQLite",
     ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+
   },
   {
     id: 3,
@@ -104,12 +105,13 @@ export const experiences = [
     company: "SILVERAYS.TECH (Sri Lanka)",
     date: "Feb 2018 - Jan 2019",
     responsible: [
-      "Developing water supply billing system using Vue Is.",
-      "Developing office expenses tracker using React Native.",
-      "Designing the online hotel room booking website.",
+      "Led full-stack development of a water supply billing system using Vue.js for the frontend and Node.js for backend APIs, ensuring efficient management of customer accounts, meter readings, and billing processes.",
+      "Developed an office expenses tracker app using React Native and integrated it with backend services, providing users with a seamless experience to record and categorize expenses on mobile devices.",
+      "Collaborated on a hotel room booking website, contributing to both frontend development using React.js and backend API development with Node.js and MongoDB, ensuring an intuitive user interface and smooth booking functionality.",
+      "Implemented secure user authentication and authorization using JWT and Express.js, enhancing security for multiple applications.",
     ],
     skills: ["React Native", "JavaScript", "HTML5", "CSS3"],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+
   },
   {
     id: 4,
@@ -118,12 +120,13 @@ export const experiences = [
     company: "Omega Construction Co. (PVT) LTD (Sri Lanka)",
     date: "Jan 2017 - Jan 2019",
     responsible: [
-      "Developing & testing systems for accounting process using React.",
-      "Fixing the bugs during the development of software.",
-      "Developed customized software to manage project costing.",
+      "●	Developed and tested systems for accounting processes using React, ensuring accuracy and compliance with financial regulations.",
+      "Diligently addressed and resolved software bugs encountered during the development phase, ensuring the smooth functioning of the final product and enhancing overall application reliability.",
+      "Developed customized software to manage project costing, providing stakeholders with real-time insights into budget allocation and expenditure tracking.",
+      "Conducted training sessions for end-users to facilitate the smooth adoption of new systems and software, ensuring users were equipped to utilize the applications effectively.",
     ],
     skills: ["React JS", "JavaScript", "HTML5", "CSS3", "mySQL"],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+
   },
 ];
 export const skills = [
