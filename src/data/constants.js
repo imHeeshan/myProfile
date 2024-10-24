@@ -425,8 +425,8 @@ export const education = [
     id: 0,
     img: "https://geo.org.mx/images/logo.png",
     school: "GEO University Mexico",
-    date: "Jan 2021 - Feb 2024",
-    // grade: "Merit Pass",
+    date: "Jan 2021 - Reading",
+
     degree: "BSc Computer Science",
     desc: "Introduction to Computer Science, Mathematics for Computing, Programming Fundamentals, Data Structures and Algorithms, Computer Architecture, Operating Systems, Database Management Systems, Software Engineering, Computer Networks, Web Development."
   },
